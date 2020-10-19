@@ -12,7 +12,7 @@ library("tidyverse")
 # Hours_of_Sleep_per_night, Flu_shot_yes, Smoking_Years,
 # Degree_of_Relaxation,Gender respectively. 
 
-Data_health<- read.csv("/Users/dilireba/Desktop/AA2vfFTU.csv")
+Data_health<- read.csv("AA2vfFTU.csv")
 Effects_on_health <- Data_health %>%
   select(Health_Satisfaction_level = dvn2a,
          Hours_of_Sleep_per_night = h2hrs,
